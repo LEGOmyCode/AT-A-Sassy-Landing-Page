@@ -60,11 +60,6 @@ a {
   text-align: center;
 }
 
-nav {
-  text-decoration: none;
-  color: #a2d0fc;
-}
-
 .m-1 {
   margin: 1rem;
 }
@@ -143,6 +138,4 @@ nav {
 
 .py-5 {
   padding: 5rem 0;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
