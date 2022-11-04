@@ -35,6 +35,10 @@ a {
   display: flex;
   justify-content: center;
   text-align: center;
+  ul {
+    list-style: none;
+    display: block;
+  }
 }
 
 // This code is related to some of the aspects of SCSS we have yet to cover.

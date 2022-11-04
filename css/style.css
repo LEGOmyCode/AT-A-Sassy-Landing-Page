@@ -59,10 +59,8 @@ a {
   justify-content: center;
   text-align: center;
 }
-
-nav {
-  text-decoration: none;
-  color: #a2d0fc;
+.hero ul {
+  list-style: none;
 }
 
 .m-1 {

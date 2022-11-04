@@ -59,6 +59,9 @@ a {
   justify-content: center;
   text-align: center;
 }
+.hero ul {
+  list-style: none;
+}
 
 .m-1 {
   margin: 1rem;
