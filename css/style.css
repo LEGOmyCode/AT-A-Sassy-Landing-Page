@@ -55,12 +55,39 @@ a {
 .hero {
   background-color: #000814;
   color: #a2d0fc;
-  display: flex;
-  justify-content: center;
-  text-align: center;
 }
 .hero ul {
   list-style: none;
+  display: block;
+}
+.hero nav {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: nowrap;
+}
+.hero nav ul {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: nowrap;
+}
+.hero nav ul li a {
+  color: white;
+}
+.hero .hero-content {
+  margin-top: 10rem;
+  padding: 1rem;
+  contain: content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.hero .hero-content img {
+  width: 100%;
+  height: auto;
 }
 
 .m-1 {
