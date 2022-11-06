@@ -61,33 +61,36 @@ a {
   display: block;
 }
 .hero nav {
-  color: white;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: space-between;
-  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
 }
 .hero nav ul {
   display: flex;
-  justify-content: center;
-  align-content: space-between;
-  flex-wrap: nowrap;
+  list-style-type: none;
 }
-.hero nav ul li a {
+.hero nav li {
+  padding: 15px;
+}
+.hero nav a {
   color: white;
 }
-.hero .hero-content {
-  margin-top: 10rem;
-  padding: 1rem;
-  contain: content;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+.hero nav a:hover {
+  color: #a2d0fc;
 }
-.hero .hero-content img {
-  width: 100%;
-  height: auto;
+.hero-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.hero-content img {
+  width: 50%;
+}
+.hero-content h1 {
+  font-size: 50px;
+  line-height: 1.2;
 }
 
 .m-1 {
